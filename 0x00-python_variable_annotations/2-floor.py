@@ -4,7 +4,7 @@
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     '''floor
     '''
     return math.floor(3.14)
