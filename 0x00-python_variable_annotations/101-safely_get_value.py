@@ -8,6 +8,7 @@ T = TypeVar('T')
 dft = Union[T, None]
 Rtn = Union[Any, T]
 
+
 def safely_get_value(dct: Mapping, key: Any, default: dft = None) -> Rtn:
     '''safely_get_value
     '''
